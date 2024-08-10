@@ -7,7 +7,7 @@
 To install the package, run:
 
 ```sh
-go get github.com/yourusername/cronpulse-go
+go get github.com/cronpulse-live/cronpulse-go
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Here's an example of how to use `cronpulse-go`:
 package main
 
 import (
-    "github.com/yourusername/cronpulse-go"
+    "github.com/cronpulse-live/cronpulse-go"
     "fmt"
 )
 
@@ -47,7 +47,7 @@ The `Wrap` function can be used to automatically monitor the job's start, succes
 package main
 
 import (
-    "github.com/yourusername/cronpulse-go"
+    "github.com/cronpulse-live/cronpulse-go"
     "fmt"
 )
 
