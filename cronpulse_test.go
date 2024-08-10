@@ -122,6 +122,6 @@ func TestMonitorPingInvalidState(t *testing.T) {
 	if err := monitor.Ping("invalidState"); err == nil {
 		t.Errorf("❌ Expected an error for invalid state, got none")
 	} else {
-		t.Logf("✅ Received expected error for invalid state: %v", err)
+		t.Logf("✅ Received expected error in this function for invalid state: %v", err)
 	}
 }
